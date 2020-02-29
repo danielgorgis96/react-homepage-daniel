@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Contact from './components/Contact/Contact';
+import Code from './components/Code/Code';
 import * as serviceWorker from './serviceWorker';
 import { Route, Switch,Link, BrowserRouter as Router } from 'react-router-dom';
 
@@ -12,6 +13,7 @@ const routing = (
       <div>
         <Route exact path="/" component={App} />
         <Route path="/Contact" component={Contact} />
+        <Route path="/Code" component={Code} />
       </div>
     </Router>
   )
