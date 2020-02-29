@@ -2,7 +2,9 @@
 import React from 'react';
 import '../Frontpage/Frontpage.css'
 import '../Frontpage/Frontpage.scss'
-import Button from '../Button/Button';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
+
+
 
 
 class Frontpage extends React.Component{
@@ -10,12 +12,11 @@ class Frontpage extends React.Component{
 
 render(){
 
-
-
- 
     return (
 
+    
         <div>
+
             <div class="split left" id="homePage">
 
                 <div class="centered">
@@ -28,14 +29,12 @@ render(){
 
             <div class="split right">
                 <div class="centered">
-
+                
                     
 
 <div class="buttons">
-
-
-
-<button class="blob-btn" onClick={() => alert("hej")}>
+<a href="/Code">
+<button class="blob-btn">
    Code and Tech
  <span class="blob-btn__inner">
        <span class="blob-btn__blobs">
@@ -46,7 +45,9 @@ render(){
        </span>
    </span>
 </button>
+</a>
 
+<a href="/CV">
 <button class="blob-btn" props="value">
   CV and Experience
  <span class="blob-btn__inner">
@@ -58,8 +59,11 @@ render(){
        </span>
    </span>
 </button>
+</a>
 
+<a href="/Contact">
 <button class="blob-btn" props="value">
+    
    Contact me
  <span class="blob-btn__inner">
        <span class="blob-btn__blobs">
@@ -70,6 +74,7 @@ render(){
        </span>
    </span>
 </button>
+</a>
 
 
 
@@ -84,11 +89,7 @@ render(){
 </svg>
 </div>
 
-                  
-
-
-
-
+          
                 </div>
                   </div>
                     </div>
