@@ -19,16 +19,7 @@ render(){
 
 
     return (
-
-        <div class="jumbotron text-center">
-
-            <button className="btn btn-primary" onClick={() => this.enablePython()}>Python</button>    
-            <button className="btn btn-primary" onClick={() => this.enablePython()}>Python</button>  
-            <button className="btn btn-primary" onClick={() => this.enablePython()}>Python</button>  
-            <button className="btn btn-primary" onClick={() => this.enablePython()}>Python</button>    
-                  
-        </div>
-  
+<div></div>
       )
         
   

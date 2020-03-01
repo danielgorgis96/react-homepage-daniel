@@ -46,7 +46,7 @@ render(){
 </button>
 </a>
 
-<a href="/CV">
+<a href="/Cv">
 <button class="blob-btn" props="value">
   CV and Experience
  <span class="blob-btn__inner">

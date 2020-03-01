@@ -1,0 +1,40 @@
+
+img{
+    max-width: 600px;
+   
+}
+
+.imglogo{
+    max-width: 600px;
+    border-radius: 50%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "logo1 firsttext" "logo2 secondtext" "logo3 thirdtext";
+  }
+  
+ 
+
+  .logo1 { 
+      grid-area: logo1; 
+   
+    }
+  
+  .logo2 { 
+    
+
+    grid-area: logo2; 
+
+
+}
+  
+  .logo3 { grid-area: logo3; }
+  
+  .firsttext { grid-area: firsttext; }
+  
+  .secondtext { grid-area: secondtext; }
+  
+  .thirdtext { grid-area: thirdtext; }
