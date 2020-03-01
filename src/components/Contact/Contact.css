@@ -36,20 +36,15 @@ html {
     animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
   } */
   
-  h1,
-  h2 {
-    font-weight: 500;
-    margin: 0px 0px 5px 0px;
-    color: black;
-  }
+ h3{
+   color: rgb(65, 60, 60);
+ }
   
   h1 {
     font-size: 24px;
   }
   
-  h2 {
-    font-size: 16px;
-  }
+
   h5{
     font-weight: 500;
     margin: 0px 0px 5px 0px;
@@ -87,7 +82,7 @@ html {
     display: inline-block;
     float: left;
     border-right: 2px dashed #EEEEEE;
-    background: #FFFFFF;
+    background: rgb(31, 42, 80);
     color: #000000;
     margin-top: 50px;
     opacity: 0;

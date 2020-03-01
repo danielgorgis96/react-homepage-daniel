@@ -15,8 +15,9 @@ class Contact extends React.Component {
           </a>
 
           <h1>Daniel Gorgis</h1>
+          <h3>Software Developer</h3>
 
-          <h2>Softwaree Developer/Consultant</h2>
+          
           <h5> <a href="mailto:daniel.gorgis-cic@ibm.com">Mail me!</a> </h5>
      
          
