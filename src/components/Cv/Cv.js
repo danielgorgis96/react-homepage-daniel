@@ -28,7 +28,7 @@ class Cv extends React.Component {
 
 
 <div class="buttons">
-<a href="www.google.com">
+<a href="pdf.pdf">
 <button class="blob-btn">
 Download resumé
 <span class="blob-btn__inner">
