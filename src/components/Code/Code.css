@@ -1,7 +1,22 @@
-h1{
-    color: rgb(61, 60, 60);
+
+
+body{
+    overflow: auto;
+    font-size: 20px;
+    
 }
 
-.jumbotron{
-    height: 200px;
+code {
+    background-color: rgb(85, 84, 84);
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+  }
+
+  .pre{
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
 }
+
