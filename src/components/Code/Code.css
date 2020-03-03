@@ -13,10 +13,10 @@ code {
     padding: 20px;
   }
 
-  .pre{
-    display: block;
-    font-family: monospace;
-    white-space: pre;
-    margin: 1em 0px;
+.pre{
+display: block;
+font-family: monospace;
+white-space: pre;
+margin: 1em 0px;
 }
 

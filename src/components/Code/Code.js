@@ -9,6 +9,11 @@ import { atelierSavannaDark } from 'react-syntax-highlighter/dist/esm/styles/hlj
 
 
 
+
+
+
+
+
 class Code extends React.Component {
 
 
@@ -16,7 +21,16 @@ class Code extends React.Component {
 render() {
 
 
-
+  var mongoose = require('mongoose');
+  mongoose.connect("mongodb+srv://homepageuser:Lw7YQjh7q5fV7AH9@cluster0-9ugms.mongodb.net/test?retryWrites=true&w=majority", {useNewUrlParser: true});
+  
+  var db = mongoose.connection;
+  
+  
+  db.on('error', console.error.bind(console, 'connection error:'));
+  db.once('open',function(){
+  
+  });
 
 const codeString = `
     
