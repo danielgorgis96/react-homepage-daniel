@@ -1,7 +1,6 @@
 import React from 'react';
 import '../Frontpage/Frontpage.css'
 import '../Frontpage/Frontpage.scss'
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 
 
 
@@ -16,60 +15,60 @@ render(){
     
         <div>
 
-            <div class="split left" id="homePage">
+            <div className="split left" id="homePage">
 
-                <div class="centered">
-                    <img class="iconImg" src="talebobble.png"></img>
-                    <img class="welcomeImg" src="pluto-done.png"></img>
+                <div className="centered">
+                    <img alt="" className="iconImg" src="talebobble.png"></img>
+                    <img alt="" className="welcomeImg" src="pluto-done.png"></img>
 
 
                 </div>
             </div>
 
-            <div class="split right">
-                <div class="centered">
+            <div className="split right">
+                <div className="centered">
                 
                     
 
-<div class="buttons">
+<div className="buttons">
 <a href="/Code">
-<button class="blob-btn">
+<button className="blob-btn">
    Code and Tech
- <span class="blob-btn__inner">
-       <span class="blob-btn__blobs">
-           <span class="blob-btn__blob"></span>
-           <span class="blob-btn__blob"></span>
-           <span class="blob-btn__blob"></span>
-           <span class="blob-btn__blob"></span>
+ <span className="blob-btn__inner">
+       <span className="blob-btn__blobs">
+           <span className="blob-btn__blob"></span>
+           <span className="blob-btn__blob"></span>
+           <span className="blob-btn__blob"></span>
+           <span className="blob-btn__blob"></span>
        </span>
    </span>
 </button>
 </a>
 
 <a href="/Cv">
-<button class="blob-btn" props="value">
+<button className="blob-btn" props="value">
   CV and Experience
- <span class="blob-btn__inner">
-       <span class="blob-btn__blobs">
-           <span class="blob-btn__blob"></span>
-           <span class="blob-btn__blob"></span>
-           <span class="blob-btn__blob"></span>
-           <span class="blob-btn__blob"></span>
+ <span className="blob-btn__inner">
+       <span className="blob-btn__blobs">
+           <span className="blob-btn__blob"></span>
+           <span className="blob-btn__blob"></span>
+           <span className="blob-btn__blob"></span>
+           <span className="blob-btn__blob"></span>
        </span>
    </span>
 </button>
 </a>
 
 <a href="/Contact">
-<button class="blob-btn" props="value">
+<button className="blob-btn" props="value">
     
    Contact me
- <span class="blob-btn__inner">
-       <span class="blob-btn__blobs">
-           <span class="blob-btn__blob"></span>
-           <span class="blob-btn__blob"></span>
-           <span class="blob-btn__blob"></span>
-           <span class="blob-btn__blob"></span>
+ <span className="blob-btn__inner">
+       <span className="blob-btn__blobs">
+           <span className="blob-btn__blob"></span>
+           <span className="blob-btn__blob"></span>
+           <span className="blob-btn__blob"></span>
+           <span className="blob-btn__blob"></span>
        </span>
    </span>
 </button>

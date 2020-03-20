@@ -3,20 +3,8 @@ import '../Code/Code.css'
 import '../Code/Code.scss'
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-import { solarizedDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-import { atelierSavannaDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-
-
-
-
-
-
-
-
 
 class Code extends React.Component {
-
-
 
 render() {
 
@@ -58,7 +46,7 @@ const codeString = `
 
 
     return (
-      <body>
+      <div>
         <div style={{ overflow: 'auto' }}>
 
           {insertFields}
@@ -68,7 +56,7 @@ const codeString = `
 
         </div>
 
-      </body>
+      </div>
 
     )
 

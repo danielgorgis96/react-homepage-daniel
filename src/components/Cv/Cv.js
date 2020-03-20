@@ -9,47 +9,47 @@ class Cv extends React.Component {
 
   render() {
     return (
-        <body>
+        <div>
           
         <div>
 
-<div class="split left" id="homePage">
+<div className="split left" id="homePage">
 
-    <div class="centered">
-        <img class="iconImg" src="talebobble2.png"></img>
-        <img class="welcomeImg" src="downloadresume.png"></img>
+    <div className="centered">
+        <img alt="" className="iconImg" src="talebobble2.png"></img>
+        <img alt="" className="welcomeImg" src="downloadresume.png"></img>
 
 
     </div>
 </div>
 
-<div class="split right">
-    <div class="centered">
+<div className="split right">
+    <div className="centered">
 
 
-<div class="buttons">
+<div className="buttons">
 <a href="pdf.pdf">
-<button class="blob-btn">
+<button className="blob-btn">
 Download resumé
-<span class="blob-btn__inner">
-<span class="blob-btn__blobs">
-<span class="blob-btn__blob"></span>
-<span class="blob-btn__blob"></span>
-<span class="blob-btn__blob"></span>
-<span class="blob-btn__blob"></span>
+<span className="blob-btn__inner">
+<span className="blob-btn__blobs">
+<span className="blob-btn__blob"></span>
+<span className="blob-btn__blob"></span>
+<span className="blob-btn__blob"></span>
+<span className="blob-btn__blob"></span>
 </span>
 </span>
 </button>
 </a>
 <a href="https://www.youracclaim.com/users/daniel-gorgis">
-<button class="blob-btn">
+<button className="blob-btn">
 badges and certificates
-<span class="blob-btn__inner">
-<span class="blob-btn__blobs">
-<span class="blob-btn__blob"></span>
-<span class="blob-btn__blob"></span>
-<span class="blob-btn__blob"></span>
-<span class="blob-btn__blob"></span>
+<span className="blob-btn__inner">
+<span className="blob-btn__blobs">
+<span className="blob-btn__blob"></span>
+<span className="blob-btn__blob"></span>
+<span className="blob-btn__blob"></span>
+<span className="blob-btn__blob"></span>
 </span>
 </span>
 </button>
@@ -72,7 +72,7 @@ badges and certificates
 </svg>
 </div>
 
-<a href="https://github.com/DanielGorgis"><img className="fvicons" src="git.png"></img></a>
+<a href="https://github.com/DanielGorgis"><img alt="" className="fvicons" src="git.png"></img></a>
 
 
 
@@ -83,7 +83,7 @@ badges and certificates
 
   
        
-      </body>
+      </div>
 
         
     );

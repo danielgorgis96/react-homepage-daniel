@@ -6,7 +6,7 @@ import Contact from './components/Contact/Contact';
 import Cv from './components/Cv/Cv';
 import Code from './components/Code/Code';
 import * as serviceWorker from './serviceWorker';
-import { Route, Switch,Link, BrowserRouter as Router } from 'react-router-dom';
+import { Route, BrowserRouter as Router } from 'react-router-dom';
 
 
 const routing = (
