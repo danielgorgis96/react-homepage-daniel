@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "Layout": "0.0.1",
     "dotenv": "^8.2.0",
+    "gh-pages": "^2.2.0",
     "moment": "^2.24.0",
     "mongodb": "^3.5.4",
     "mongoose": "^5.9.3",
