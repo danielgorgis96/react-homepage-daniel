@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-homepage-daniel/static/css/main.b6697f3e.chunk.css",
+    "main.js": "/react-homepage-daniel/static/js/main.73b3dca8.chunk.js",
+    "main.js.map": "/react-homepage-daniel/static/js/main.73b3dca8.chunk.js.map",
+    "runtime-main.js": "/react-homepage-daniel/static/js/runtime-main.f08262f2.js",
+    "runtime-main.js.map": "/react-homepage-daniel/static/js/runtime-main.f08262f2.js.map",
+    "static/js/2.e56bef96.chunk.js": "/react-homepage-daniel/static/js/2.e56bef96.chunk.js",
+    "static/js/2.e56bef96.chunk.js.map": "/react-homepage-daniel/static/js/2.e56bef96.chunk.js.map",
+    "index.html": "/react-homepage-daniel/index.html",
+    "precache-manifest.139b0f6c4593e2d010853dc214c242d1.js": "/react-homepage-daniel/precache-manifest.139b0f6c4593e2d010853dc214c242d1.js",
+    "service-worker.js": "/react-homepage-daniel/service-worker.js",
+    "static/css/main.b6697f3e.chunk.css.map": "/react-homepage-daniel/static/css/main.b6697f3e.chunk.css.map",
+    "static/js/2.e56bef96.chunk.js.LICENSE": "/react-homepage-daniel/static/js/2.e56bef96.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f08262f2.js",
+    "static/js/2.e56bef96.chunk.js",
+    "static/css/main.b6697f3e.chunk.css",
+    "static/js/main.73b3dca8.chunk.js"
+  ]
+}
