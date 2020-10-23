@@ -9,39 +9,28 @@ class Code extends React.Component {
 render() {
 
 
-const codeString = `
+//const codeString = `
     
- Code on the way..
+// Code on the way..
   
- 
-  `;
 
-    let insertFields = (
+  //`;
 
-      <div>
+    //let insertFields = (
+     // <div>
+      //  <h3>Dette er et eksempel</h3>
+       // <SyntaxHighlighter language="javascript" style={docco}>
+        //  {codeString}
+        //</SyntaxHighlighter>
 
-        <h3>Dette er et eksempel</h3>
-        <SyntaxHighlighter language="javascript" style={docco}>
-          {codeString}
-        </SyntaxHighlighter>
-
-      </div>)
+     // </div>)
 
 
     return (
-      <div>
-        <div style={{ overflow: 'auto' }}>
-
-          {insertFields}
-          {insertFields}
-          {insertFields}
-          {insertFields}
-          {insertFields}
-          
-
-        </div>
-
-      </div>
+      
+      <div class="buttons">
+      <button class="offset">Offset</button>
+    </div>
 
     )
 
